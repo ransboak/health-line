@@ -18,4 +18,4 @@ use App\Http\Controllers\UserController;
 |
 */
 
-Route::get('/', [PatientCoontroller::class, 'dashboard']);
+Route::get('/', [PatientCoontroller::class, 'dashboard'])->name('dashboard');
